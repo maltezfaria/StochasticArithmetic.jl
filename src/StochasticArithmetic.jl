@@ -1,6 +1,6 @@
 module StochasticArithmetic
 
-using Statistics
+using Statistics, Cassette
 
 export UP, DWN, RND, SFloat64, SFloat32, value, @reliable_digits
 
